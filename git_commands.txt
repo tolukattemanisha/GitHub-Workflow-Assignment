@@ -1,0 +1,77 @@
+
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. git --version
+   Checks the installed Git version.
+
+2. git init -b main
+   Initializes a local Git repository with main as the initial branch.
+
+3. git status
+   Displays the current repository status.
+
+4. git add index.html about.html
+   Adds the HTML files to the staging area.
+
+5. git commit -m "Initial commit: Add HTML project files"
+   Records the initial project snapshot.
+
+6. git log --oneline
+   Displays the commit history in a compact format.
+
+7. git add index.html
+   Stages modifications made to index.html.
+
+8. git commit -m "Update home page content"
+   Records the second commit.
+
+9. git branch feature
+   Creates a new branch named feature.
+
+10. git switch feature
+    Switches to the feature branch.
+
+11. git add about.html
+    Stages changes made to about.html.
+
+12. git commit -m "Add feature section to about page"
+    Records the feature branch changes.
+
+13. git switch main
+    Switches back to the main branch.
+
+14. git merge feature
+    Merges the feature branch into main.
+
+15. git log --oneline --graph --all
+    Displays commit history with branch relationships.
+
+16. git status --ignored
+    Displays tracked, untracked and ignored files.
+
+17. git add .gitignore
+    Stages the .gitignore configuration file.
+
+18. git commit -m "Add gitignore configuration"
+    Records the .gitignore configuration.
+
+19. git commit -m "Add temporary paragraph"
+    Records an additional change for the undo demonstration.
+
+20. git revert --no-edit HEAD
+    Reverses the latest commit while preserving Git history.
+
+21. git remote add origin https://github.com/tolukattemanisha/GitHub-Workflow-Assignment
+    Connects the local repository to GitHub.
+
+22. git push -u origin main
+    Pushes main to GitHub and sets its upstream branch.
+
+23. git push -u origin feature
+    Pushes feature to GitHub and sets its upstream branch.
+
+24. git remote -v
+    Displays configured remote repository URLs.
+
+25. git branch -a
+    Displays local and remote branches.
